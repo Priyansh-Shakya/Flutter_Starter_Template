@@ -4,21 +4,28 @@
 
 A reusable Flutter starter template built for fast project setup, clean architecture, scalability, and solo development productivity.
 
-This template is designed around a consistent Flutter stack using:
+Packages Included:
 
 - Riverpod
-- Feature-first architecture
 - Freezed
 - Dio
 - GoRouter
 - JSON Serializable
 - Build Runner
+- flutter_launcher_icons
+
+Boilerplate Code and Stcuture Includes:
+- Feature based folder architecture
+- Dio provider with interceptors
+- flutter_launcher_icons pubspec.ymal code , initilized with default Flutter logo
 
 The goal is to avoid repeating setup work for every new Flutter project.
 
+
+
 ---
 
-# Philosophy
+# Ideology
 
 This template is intentionally kept lightweight.
 

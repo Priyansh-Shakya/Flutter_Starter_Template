@@ -26,7 +26,9 @@ dart pub add \
   go_router \
   flutter_dotenv \
   freezed_annotation \
-  json_annotation
+  json_annotation \
+  flutter_launcher_icons \
+  flutter_dotenv
 
 dart pub add \
   dev:build_runner \
