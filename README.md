@@ -18,6 +18,8 @@ Boilerplate Code and Stcuture Includes:
 - Feature based folder architecture
 - Dio provider with interceptors
 - flutter_launcher_icons pubspec.ymal code , initilized with default Flutter logo
+- Bootstrap class which will handle app start logic, keeping main function clean
+- .env file with befault variables present (env file will load at app start in bootstrap app_starter.dart file)
 
 The goal is to avoid repeating setup work for every new Flutter project.
 
