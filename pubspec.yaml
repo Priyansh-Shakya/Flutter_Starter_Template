@@ -46,7 +46,7 @@ dependencies:
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "web/icons/Icon-192.png"  # replace this path with something like "assets/icon/icon.png" if you have your icon in the assets folder
+  image_path: "assets/app_logo.png"  # app_logo.png is by default flutter's default logo, replace it with your own.
 
 dev_dependencies:
   flutter_test:
