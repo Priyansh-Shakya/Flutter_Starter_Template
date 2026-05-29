@@ -44,10 +44,15 @@ dependencies:
   flutter_launcher_icons: ^0.14.4
 
 
+# Use transparent background png for both image_path and adaptive_icon_foreground to avoid issues with adaptive icons on Android 8.0+ and iOS 13+.
+# make your png 1024x1024 pixels ... fits perfectly
+
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/app_logo.png"  # app_logo.png is by default flutter's default logo, replace it with your own.
+  image_path: "assets/app_logo.png" # initilized with default flutter icon png
+  adaptive_icon_background: "#FFFFFF" # White color.
+  adaptive_icon_foreground: "assets/app_logo.png"
 
 dev_dependencies:
   flutter_test:
